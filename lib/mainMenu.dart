@@ -41,6 +41,7 @@ class MainMenu extends StatelessWidget {
             ),
             SizedBox(width: 20),
             ElevatedButton(
+              style: ElevatedButton.styleFrom(padding: EdgeInsets.all(20)),
               onPressed: () {
                 Navigator.push(
                   context,
