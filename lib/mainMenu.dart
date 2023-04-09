@@ -19,6 +19,7 @@ class MainMenu extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ElevatedButton(
+              style: ElevatedButton.styleFrom(padding: EdgeInsets.all(20)),
               onPressed: () {
                 Navigator.push(
                   context,
@@ -39,7 +40,7 @@ class MainMenu extends StatelessWidget {
               },
               child: Text('Daftar Anggota'),
             ),
-            SizedBox(width: 20),
+            SizedBox(width: 20, height:20),
             ElevatedButton(
               style: ElevatedButton.styleFrom(padding: EdgeInsets.all(20)),
               onPressed: () {
@@ -52,8 +53,9 @@ class MainMenu extends StatelessWidget {
               },
               child: Text('Stopwatch'),
             ),
-            SizedBox(width: 20),
+            SizedBox(width: 20, height: 20),
             ElevatedButton(
+              style: ElevatedButton.styleFrom(padding: EdgeInsets.all(20)),
               onPressed: () {
                 Navigator.push(
                   context,
@@ -64,8 +66,9 @@ class MainMenu extends StatelessWidget {
               },
               child: Text('Rekomendasi'),
             ),
-            SizedBox(width: 20),
+            SizedBox(width: 20, height: 20),
             ElevatedButton(
+              style: ElevatedButton.styleFrom(padding: EdgeInsets.all(20)),
               onPressed: () {
                 Navigator.push(
                   context,
@@ -76,7 +79,7 @@ class MainMenu extends StatelessWidget {
               },
               child: Text('Favorit'),
             ),
-            SizedBox(width: 20),
+            SizedBox(width: 20, height:20),
           ],
         ),
       ),
