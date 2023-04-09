@@ -71,7 +71,7 @@ class DaftarAnggota extends StatelessWidget {
           Center(
             child: CircleAvatar(
               radius: 50,
-              backgroundImage: NetworkImage(""),
+              backgroundImage: AssetImage("images/profile.png"),
             ),
           ),
           SizedBox(height: 16),

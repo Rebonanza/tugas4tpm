@@ -15,7 +15,7 @@ class MainMenu extends StatelessWidget {
         title: Text('Main Menu'),
       ),
       body: Center(
-        child: Row(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ElevatedButton(
@@ -23,20 +23,17 @@ class MainMenu extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) =>
-                        DaftarAnggota(
-                            name1: "Fahmi Malik Namus Akbar",
-                            nim1: "123200002",
-                            photoUrl1:
+                    builder: (context) => DaftarAnggota(
+                        name1: "Fahmi Malik Namus Akbar",
+                        nim1: "123200002",
+                        photoUrl1:
                             "https://1.bp.blogspot.com/-EZHGhDzkUFY/X5bZdhQ1e7I/AAAAAAAAEIs/o0QnOT08UXY0M6s7T_-u18BqaQhw6Y9jgCLcBGAsYHQ/s1280/IMG-20200410-WA0056.jpg",
-                            name2: "Giventheo Khemides",
-                            nim2: "123200063",
-                            photoUrl2:
-                            "https://1.bp.blogspot.com/-EZHGhDzkUFY/X5bZdhQ1e7I/AAAAAAAAEIs/o0QnOT08UXY0M6s7T_-u18BqaQhw6Y9jgCLcBGAsYHQ/s1280/IMG-20200410-WA0056.jpg",
-                            name3: "Raynicka Ramadhana Padma",
-                            nim3: "123200150",
-                            photoUrl3:
-                            "images/ray.jpeg"),
+                        name2: "Giventheo Khemides",
+                        nim2: "123200063",
+                        photoUrl2: "images/profile.png",
+                        name3: "Raynicka Ramadhana Padma",
+                        nim3: "123200150",
+                        photoUrl3: "images/ray.jpeg"),
                   ),
                 );
               },
